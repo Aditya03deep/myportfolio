@@ -1,0 +1,97 @@
+.in{
+    background-color: #59b256;
+    height: 550px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+.in-box{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 10px 18px 10px #242424;
+}
+.in-title{
+    height: 10%;
+    padding-top: 0.5rem;
+}
+.in-desc{
+    margin: 1rem;
+}
+.in-desc li{
+    padding: 0.5rem;
+    border-bottom: 0.5px solid green;
+    
+}
+.task1{
+    background-color: #59b256;
+    height: 100%;
+    width: 33%;
+}
+.task2{
+    background-color: #59b256;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.lor{
+    background-color: #59b256;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.cert{
+    height: 99%;
+    width: 95%;
+    transition: transform .2s;  
+}
+.cert:hover{
+    transform: scale(1.2);
+}
+.lorr{
+    height: 99%;
+    width: 95%;  
+    transition: transform .2s;
+}
+.lorr:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 480px) {
+    .in {
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
+  
+    .in-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+    .in-title h2{
+        font-size: 1rem;
+    }
+    .task1{
+        width: 95%;
+    }
+    .task2{
+       display: none;
+        
+    }
+    
+    .lor{
+      display: none;
+    }
+    .in-desc{
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+     padding-left: 1rem;
+
+    }
+    
+  }
